@@ -1,0 +1,15 @@
+.home {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.infContainer {
+  width: 90%;
+}
+
+.title {
+  font-size: 5.2rem;
+  color: white;
+}
