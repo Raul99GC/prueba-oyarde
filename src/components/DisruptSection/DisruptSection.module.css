@@ -1,0 +1,30 @@
+
+.DisruptSection {
+    background: white;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    height: 100%;
+    padding: 0 2.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contSubtitle {
+    width: 100%;
+    padding-bottom: 5rem;
+}
+
+.subtitle {
+    font-size: 4.2rem;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
+
+.paragraph {
+    font-size: 1.8rem;
+    
+}
