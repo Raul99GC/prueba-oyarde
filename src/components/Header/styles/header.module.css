@@ -1,0 +1,73 @@
+.header {
+  background-color: black;
+  display: flex;
+  height: 6rem;
+  max-height: 6rem;
+  justify-content: center;
+  padding: 1.6rem 0;
+  width: 100%;
+  backface-visibility: hidden;
+}
+
+.container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgContainer {
+  width: 12rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  display: flex;
+  width: 100%;
+}
+
+.mebuButton {
+  color: white;
+}
+
+
+@media (min-width: 480px) {
+  .header {
+    height: 7.8rem;
+    min-height: 7.8rem;
+    padding: 2.4rem 0;
+  }
+
+  .active {
+    height: calc(100vh - 7.8rem);
+  }
+
+  .imgContainer {
+    min-width: 16rem;
+    height: 3rem;
+  }
+
+  .img {
+    height: 100%;
+  }
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {
+  .header {
+    height: 9.8rem;
+    max-height: 9.8rem;
+    padding: 3.2rem 0;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 5rem;
+  }
+
+  .imgContainer {
+    width: 18rem;
+  }
+}
