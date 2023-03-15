@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
-import styles from './header.module.css'
+import styles from './styles/header.module.css'
 import logo from '../../assets/logo.png'
 import { FiMenu } from 'react-icons/fi'
+import { MenuMobile } from './MenuMobile'
 
 
 export const Header = () => {
@@ -19,15 +20,7 @@ export const Header = () => {
           <img className={styles.img} src={logo} alt="Factory Logo" />
         </div>
 
-        <nav className={`${styles.navMenu} ${buttonStatus&& styles.active}`}>
-          <ul className={styles.navContainer}>
-            <li className={styles.navItem}>ABOUT</li>
-            <li className={styles.navItem}>WORK</li>
-            <li className={styles.navItem}>CLIENTS</li>
-            <li className={styles.navItem}>BLOG</li>
-            <li className={styles.navItem}>CONTACT</li>
-          </ul>
-        </nav>
+        <MenuMobile buttonStatus={buttonStatus} />
 
         <button onClick={handleClick}>
           <FiMenu
