@@ -70,4 +70,8 @@
   .imgContainer {
     width: 18rem;
   }
+
+  .mebuButton {
+    display: none;
+  }
 }
