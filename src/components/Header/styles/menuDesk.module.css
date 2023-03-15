@@ -1,0 +1,20 @@
+.navMenu {
+  display: none;
+  color: white;
+  width: auto;
+}
+
+.navContainer {
+  display: flex;
+  gap: 6rem;
+}
+
+.navItem {
+  font-size: 1.4rem;
+}
+
+@media (min-width: 992px) {
+ .navMenu {
+  display: block;
+ }
+}

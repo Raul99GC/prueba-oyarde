@@ -3,6 +3,7 @@ import styles from './styles/header.module.css'
 import logo from '../../assets/logo.png'
 import { FiMenu } from 'react-icons/fi'
 import { MenuMobile } from './MenuMobile'
+import { MenuDesk } from './MenuDesk'
 
 
 export const Header = () => {
@@ -20,6 +21,7 @@ export const Header = () => {
           <img className={styles.img} src={logo} alt="Factory Logo" />
         </div>
 
+        <MenuDesk />
         <MenuMobile buttonStatus={buttonStatus} />
 
         <button onClick={handleClick}>
